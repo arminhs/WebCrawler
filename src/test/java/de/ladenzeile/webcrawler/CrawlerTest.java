@@ -1,26 +1,12 @@
-package de.ladenzeile.webcrawler.test;
-
-import static org.junit.Assert.*;
-
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.List;
-import java.util.Set;
-
-import javax.swing.text.html.HTML.Attribute;
-import javax.swing.text.html.HTMLEditorKit.Parser;
+package de.ladenzeile.webcrawler;
 
 import org.junit.Ignore;
 import org.junit.Test;
 
-import de.ladenzeile.webcrawler.AnchorTag;
-import de.ladenzeile.webcrawler.Callback;
-import de.ladenzeile.webcrawler.Crawler;
-import de.ladenzeile.webcrawler.HTMLPage;
-import de.ladenzeile.webcrawler.HTMLParser;
+import java.net.MalformedURLException;
+import java.util.List;
+
+import static org.junit.Assert.*;
 
 public class CrawlerTest {
 	

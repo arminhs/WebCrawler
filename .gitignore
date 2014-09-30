@@ -1,2 +1,5 @@
-bin
-.classpath
+.gradle
+.idea
+*.iml
+build
+out

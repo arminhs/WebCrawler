@@ -1,5 +1,6 @@
 package de.ladenzeile.webcrawler;
 
+import javax.swing.text.html.HTMLEditorKit.Parser;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
@@ -10,8 +11,6 @@ import java.net.URLConnection;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.logging.Logger;
-
-import javax.swing.text.html.HTMLEditorKit.Parser;
 
 public class HTMLPage {
 
